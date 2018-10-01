@@ -28,7 +28,7 @@ body{
      background: #f9ecf9;
 }
 .section__carousel {
-            margin-top: 50px;
+            margin-top: 30px;
             margin-bottom: 50px;
         }
 .section_about h4{
@@ -59,8 +59,39 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+.service-img-row{
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+.service-headding-row{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: purple;
+}
+
+.service-table tr td{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    padding-right: 15px
+}
+.column1{
+    font-family: 'Montserrat', sans-serif;
+}
+.column2{
+    font-family: 'Courgette', cursive;
+}
+ .p1,.p2{
+    text-align: center;
+   }
+.p1{
+    padding-top: 20px;
+     font-family: 'Montserrat', sans-serif;
+}
+.p2{
+    font-family: 'Courgette', cursive;
+}
 footer{
-    padding-top: 10px;
+    margin-top: 20px;
     background: linear-gradient(to left, #df9fdf,white 32%, #e6b3e6);
 }
 
