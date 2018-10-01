@@ -1,0 +1,94 @@
+.navbar {
+    background: linear-gradient(to right, white 15%, #e6b3e6);
+    /*position: fixed;*/
+}
+
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: #990099;
+    padding-left: 40px;
+}
+
+.nav-link {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+body{
+     background: #f9ecf9;
+}
+.section__carousel {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+.section_about h4{
+    font-family: 'Courgette', cursive;
+    /*font-size: 20px;*/
+}
+.section_about p{
+    font-family: 'Montserrat', sans-serif;
+}
+.section_review h3{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    
+}
+.section_review h6{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.review{
+    padding-top: 20px;
+    background-color: white;
+    
+}
+.cust_review{
+    padding-top: 30px;
+    /*//padding-bottom: 30px;*/
+    background-color: #f2d9f2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    padding-top: 10px;
+    background: linear-gradient(to left, #df9fdf,white 32%, #e6b3e6);
+}
+
+.footer_social {
+    color: purple;
+    font-size:30px;
+    padding: 5px;
+    /*padding-top:10px;*/
+}
+
+.footer-col {
+    text-align: left;
+    padding: 15px;
+}
+
+#footer-brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    color: #990099;
+}
+
+.footer-headding {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: black;
+}
+
+.footer-para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px
+}
