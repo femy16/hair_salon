@@ -1,8 +1,14 @@
 .navbar {
     background: linear-gradient(to right, white 15%, #e6b3e6);
-    /*position: fixed;*/
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    
 }
-
+.spacer{
+    width: 100%;
+    height:166px;
+}
 .navbar-brand {
     font-family: 'Kaushan Script', cursive;
     font-size: 50px;
@@ -90,10 +96,41 @@ body{
 .p2{
     font-family: 'Courgette', cursive;
 }
+.service-img-row img{
+    max-width: 100%;
+}
+.product-img-row{
+      padding-top: 30px;
+    padding-bottom:20px;
+}
+.product-img-row img{
+     max-width: 100%;
+}
+.product-headding-row{
+    font-family: 'Courgette', cursive;
+    /*text-align: center;*/
+    color: purple;
+}
+.product-para-row{
+     padding-top: 20px;
+     padding-bottom: 30px;
+     font-family: 'Montserrat', sans-serif;
+}
+.product_logo_row .col-sm-4{
+  padding-top: 0px;
+            padding-bottom:0px;
+            margin-top:20Px;
+            margin-bottom: 30px
+}
+
+.product_logo img{
+    max-width: 100%;
+}
 footer{
     margin-top: 20px;
     background: linear-gradient(to left, #df9fdf,white 32%, #e6b3e6);
 }
+
 
 .footer_social {
     color: purple;
