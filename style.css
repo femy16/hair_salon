@@ -244,11 +244,21 @@ footer {
     font-size: 15px
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 479px) {
     .navbar-brand{
         font-size: 40px;
     }
     .navbar-brand img{
+        max-width: 30%;
+        /*display: none;*/
+    }
+    .navbar-brand{
+        padding-left:10px;
+    }
+    .footer-about{
+        display: none;
+    }
+    .footer-img{
         display: none;
     }
 }
