@@ -37,15 +37,20 @@ body {
     background: #f9ecf9;
 }
 
-.carousel-item img {
-  margin: auto;
-}
+/*.carousel-item img {*/
+/*    margin: auto;*/
+/*}*/
+
 .section__carousel {
     margin-top: 30px;
     margin-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+.carousel{
+  width:100%;  
+}
+
 
 .section_about h4 {
     font-family: 'Courgette', cursive;
@@ -172,9 +177,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
-.cont-headding{
+
+.cont-headding {
     padding-top: 30px;
 }
+
 .contact-form-row {
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -182,11 +189,15 @@ body {
     padding-bottom: 20px;
 }
 
+iframe{
+    padding: 20px;
+}
+
 .hours {
     padding-top: 30px;
     padding-left: 40px;
-  
-    
+
+
 }
 
 .hours h5,
@@ -196,17 +207,20 @@ body {
 
 .location {
     padding-top: 30px;
-   padding-left: 20px;
-    
+    padding-left: 20px;
+
 }
 
 .formfill {
     padding-top: 30px;
-  padding-left: 20px;
-   
+    padding-left: 20px;
+
 }
+
 /*.formfill label{*/
+
 /*    font-size: 15px;*/
+
 /*}*/
 
 footer {
@@ -245,20 +259,20 @@ footer {
 }
 
 @media only screen and (max-width: 479px) {
-    .navbar-brand{
+    .navbar-brand {
         font-size: 40px;
     }
-    .navbar-brand img{
+    .navbar-brand img {
         max-width: 30%;
         /*display: none;*/
     }
-    .navbar-brand{
-        padding-left:10px;
+    .navbar-brand {
+        padding-left: 10px;
     }
-    .footer-about{
+    .footer-about {
         display: none;
     }
-    .footer-img{
+    .footer-img {
         display: none;
     }
 }
