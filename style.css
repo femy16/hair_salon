@@ -6,6 +6,14 @@
 
 }
 
+
+.try {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+
 .spacer {
     width: 100%;
     height: 166px;
@@ -13,7 +21,7 @@
 
 .navbar-brand {
     font-family: 'Kaushan Script', cursive;
-    font-size: 50px;
+    font-size: 45px;
     color: #990099;
     padding-left: 40px;
 }
@@ -38,7 +46,9 @@ body {
 }
 
 /*.carousel-item img {*/
+
 /*    margin: auto;*/
+
 /*}*/
 
 .section__carousel {
@@ -47,8 +57,9 @@ body {
     padding-left: 40px;
     padding-right: 40px;
 }
-.carousel{
-  width:100%;  
+
+.carousel {
+    width: 100%;
 }
 
 
@@ -189,7 +200,7 @@ body {
     padding-bottom: 20px;
 }
 
-iframe{
+iframe {
     padding: 20px;
 }
 
@@ -217,11 +228,7 @@ iframe{
 
 }
 
-/*.formfill label{*/
 
-/*    font-size: 15px;*/
-
-/*}*/
 
 footer {
     margin-top: 20px;
@@ -258,21 +265,75 @@ footer {
     font-size: 15px
 }
 
-@media only screen and (max-width: 479px) {
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .nav-item {
+        display: inline-block;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav-item {
+        display: inline-block;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .navbar-brand {
-        font-size: 40px;
+        font-size: 38px;
     }
     .navbar-brand img {
         max-width: 30%;
-        /*display: none;*/
+
     }
     .navbar-brand {
+
         padding-left: 10px;
+    }
+    #footer-brand {
+        font-size: 38px;
+
+    }
+    .footer-img{
+        max-width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    .navbar-brand {
+        font-size: 26.5px;
+    }
+    .navbar-brand img {
+        max-width: 23%;
+        /*display: none;*/
+    }
+
+    .navbar-brand {
+        padding-left: 5px;
     }
     .footer-about {
         display: none;
     }
     .footer-img {
         display: none;
+    }
+    #footer-brand {
+        /*font-size: 30px;*/
+        display: none;
+    }
+    .spacer {
+
+        height: 116px;
     }
 }
