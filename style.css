@@ -298,14 +298,14 @@ footer {
     }
     .navbar-brand {
 
-        padding-left: 10px;
+        padding-left: 5px;
     }
     #footer-brand {
-        font-size: 38px;
+        font-size: 35px;
 
     }
     .footer-img{
-        max-width: 30%;
+        display: none;
     }
 
 }
