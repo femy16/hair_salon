@@ -59,7 +59,7 @@ The content for all the pages are take from [here](http://mopboston.com/).
 
 ##### Media
 
-All images have been obtained through diferent seraches throug [Google](www.google.com).
+All images have been obtained through different searches through [Google](www.google.com).
 
 ### Acknowledgements
 
